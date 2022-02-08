@@ -364,3 +364,25 @@ footer > span {
         font-variation-settings: "TRIP" 1;
     }
 }
+
+/*––—————————————————————————————————————————*/
+.pink.is-checked { background: pink; color: black; }
+.black.is-checked{ background: black; color: white; }
+.lila.is-checked{ background: purple; color: white;}
+.turquoise.is-checked{ background: turquoise; color: white; }
+.green.is-checked{ background: green; color: white;}
+.red.is-checked{ background: red; color: white;}
+.yellow.is-checked{ background: yellow; color: black;}
+.blue.is-checked{ background: blue; color: white;}
+
+.circle.is-checked span{ display:none;}
+.circle.is-checked:after{ content: '\25CB'; }
+
+.rectangle.is-checked span{ display:none;}
+.rectangle.is-checked:after{ content: '\25A1'; }
+
+.line.is-checked span{ display:none;}
+.line.is-checked:after{ content: '\2014'; }
+
+.curves.is-checked span{ width: max-content; display:none;}
+.curves.is-checked:after{ content: '\222B'; display: inline-block; transform: rotate(90deg);}
